@@ -1,6 +1,5 @@
-const mainHeading = document.getElementById('main-heading');
-mainHeading.textContent="Fruit World";
-mainHeading.style.color="orange";
+const fruit= document.getElementsByClassName('fruit');
+fruit[2].style.backgroundColor='yellow';
 
 const header= document.getElementById('header');
 header.style.backgroundColor="green";
